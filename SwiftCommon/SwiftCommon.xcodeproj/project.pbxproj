@@ -14,6 +14,8 @@
 		679E77AD1A0AB37C00B7B1BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 679E77AC1A0AB37C00B7B1BB /* Images.xcassets */; };
 		679E77B01A0AB37C00B7B1BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 679E77AE1A0AB37C00B7B1BB /* LaunchScreen.xib */; };
 		679E77BC1A0AB37C00B7B1BB /* SwiftCommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679E77BB1A0AB37C00B7B1BB /* SwiftCommonTests.swift */; };
+		679E77C91A0AB57100B7B1BB /* UIViewSpinnerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679E77C81A0AB57100B7B1BB /* UIViewSpinnerExtensions.swift */; };
+		679E77CA1A0AB57100B7B1BB /* UIViewSpinnerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679E77C81A0AB57100B7B1BB /* UIViewSpinnerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 		679E77B51A0AB37C00B7B1BB /* SwiftCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		679E77BA1A0AB37C00B7B1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		679E77BB1A0AB37C00B7B1BB /* SwiftCommonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCommonTests.swift; sourceTree = "<group>"; };
+		679E77C81A0AB57100B7B1BB /* UIViewSpinnerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewSpinnerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,7 @@
 		679E77C51A0AB39100B7B1BB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				679E77C81A0AB57100B7B1BB /* UIViewSpinnerExtensions.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -223,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679E77C91A0AB57100B7B1BB /* UIViewSpinnerExtensions.swift in Sources */,
 				679E77A81A0AB37C00B7B1BB /* ViewController.swift in Sources */,
 				679E77A61A0AB37C00B7B1BB /* SwiftCommon.xcdatamodeld in Sources */,
 				679E77A31A0AB37C00B7B1BB /* AppDelegate.swift in Sources */,
@@ -233,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679E77CA1A0AB57100B7B1BB /* UIViewSpinnerExtensions.swift in Sources */,
 				679E77BC1A0AB37C00B7B1BB /* SwiftCommonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
